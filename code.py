@@ -14,7 +14,6 @@ print("Agora falaremos da função (input), que tem como finalidade fazer que o 
 print("Uma observação importante é que em alguns caso do input vem acompanhado de algumas funções anteriores, como o float, int, str. Que em alguns casos são utilizados em casos mais específicos.")
 print("Em geral a função final do (input) é a digitação que poderá ser feita pelo usuário na tela.")
 print("Como por exemplo: ")
-print("nome = input(Digite seu nome: ")
 
 #Exemplo
 print("nome = input(Digite seu nome: )")
