@@ -1,5 +1,5 @@
 #Inicio do Portifólio
-print("Olá pessoal, nós do grupo de desenvolvimento (Vinícius Taiguara, Paulo Vitor, Gabriel Felipe, Maycon Henrique e Giovane Henrique), estamos criando este portifólio para explicar para vocês um pouco do que estamos aprendendo até o momento no curso de Análise e Desenvolvimento de Sistemas")
+print("Olá pessoal, nós do grupo de desenvolvimento (Vinícius Taiguara, Paulo Vitor, Gabriel Felipe, Maickon Henrique e Giovane Henrique), estamos criando este portifólio para explicar para vocês um pouco do que estamos aprendendo até o momento no curso de Análise e Desenvolvimento de Sistemas")
 
 #Partindo para o assunto
 print("Dando início ao assunto, começaremos a falar do (print), que em português, significa imprimir, onde no Python, sua função é imprimir algo na tela. Uma observação importante é que para o (print) funcionar e imprima algo na dela, será necessário o uso das duas aspas ou aspas simples")
@@ -71,3 +71,56 @@ print('''senha_correta = "1234"
           print("Acesso liberado!")''')
 
 print('Explicação: O loop continua até o usuário digitar a senha correta')
+
+# Estruturas Condicionais (if, elif, else)
+
+print("Agora vamos falar sobre as estruturas condicionais, que são usadas quando precisamos que nosso programa tome decisões.")
+
+print("A estrutura mais comum é o if. Ela verifica se uma condição é verdadeira. Caso seja, o bloco de código dentro dele é executado.")
+
+print("Também podemos usar o else, que será executado se a condição do if não for verdadeira.")
+
+print("E o elif (else if), que é usado para testar outras condições se o if não for verdadeiro.")
+
+# Exemplo com if
+idade = 18
+if idade >= 18:
+    print("Você é maior de idade.")
+
+# Exemplo com if e else
+idade = 16
+if idade >= 18:
+    print("Você é maior de idade.")
+else:
+    print("Você é menor de idade.")
+
+# Exemplo com if, elif e else
+nota = 7
+if nota >= 9:
+    print("Ótimo!")
+elif nota >= 7:
+    print("Bom!")
+elif nota >= 5:
+    print("Regular!")
+else:
+    print("Reprovado.")
+
+print("Essas estruturas ajudam a tornar o programa mais inteligente, pois ele consegue reagir de formas diferentes conforme os dados do usuário.")
+
+# Exemplo com menu de opções
+print("Vamos ver um exemplo com um menu simples:")
+print("1 - Cadastrar usuário")
+print("2 - Exibir usuários")
+print("3 - Sair")
+
+opcao = input("Escolha uma opção: ")
+
+if opcao == "1":
+    print("Usuário cadastrado com sucesso!")
+elif opcao == "2":
+    print("Exibindo usuários...")
+elif opcao == "3":
+    print("Saindo do sistema...")
+else:
+    print("Opção inválida!")
+
