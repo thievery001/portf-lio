@@ -71,8 +71,3 @@ print('''senha_correta = "1234"
           print("Acesso liberado!")''')
 
 print('Explicação: O loop continua até o usuário digitar a senha correta')
-
-
-#Exemplo
-print("nome = input(Digite seu nome: )")
-print("Após o comando dado, o usuário poderá digitar na tela.")
