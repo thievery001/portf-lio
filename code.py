@@ -124,3 +124,45 @@ elif opcao == "3":
 else:
     print("Opção inválida!")
 
+#tipos de dados simples
+
+#int - numero inteiro
+x = 10
+y = 6   
+z = 8
+#float - numero decimal
+a = 10.5
+b = 6.7
+c = 8.9
+#str - string (texto)
+nome = "Paulo"
+idade = "18"
+altura = "1.87"
+
+#conversoes entre etapas
+
+#int para float 
+
+x = float(x) #10.0
+
+#int para str
+
+y = str(y) #6
+
+#float para int
+
+a = int(a) #10
+
+#float para str
+
+a = str(a) #10.5
+
+#str para int
+
+idade = int(idade) #18
+
+#str para float
+
+altura = float(altura) #1.87
+
+print(x, y, a, idade, altura)
