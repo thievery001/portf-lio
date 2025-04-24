@@ -166,3 +166,62 @@ idade = int(idade) #18
 altura = float(altura) #1.87
 
 print(x, y, a, idade, altura)
+
+
+#Operações Aritméticas em Python
+
+#Para que serve as Operações Aritméticas
+print("As operações artméticas elas são a base de qualquer linguagem de programção, inluindo python, elas permite que nós possamos fazer cálculos simples e complexos que é utilizado é basicamente em toda criação de programa em python")
+print("No python existem 7 operações artméticas, A Soma, A Subtração, A Multiplicação, A Divisão, A Divisão inteira, O Módulo e A Exponenciação")
+
+#As operãções, seus símbolos e sua utilização
+
+#A Soma, ela adiciona valores. È representada pelo símebolo (+)
+print('''soma = a + b
+         print("Soma (a+b):", soma)''')
+
+#A Sutração, ela subtrai o segundo valor do primeiro. È representada pelo símbolo (-)
+print('''subtracao = a - b
+         print("Subtração (a-b):", subtracao)''')
+
+#A Multiplicação, ela multiplica todos os valores. È representada pelo símbolo (*)
+print('''multiplicacao = a * b
+         print("Multiplicação (a*b):", subtracao)''')
+
+#A Divisão, ela retorna um número float. È representada pelo símbolo (/)
+print('''divisao = a / b
+         print("Divisão (a/b):", divisao)''')
+
+#A Divisão inteira, ela descarta o valor decimal(float) e apenas imprime o valor inteiro. È representada pelos símbolos (//)
+print('''divisao_inteira = a // b
+         print("divisão inteira (a//b):", divisao_inteira)''')
+
+#O Módulo, ele retorna o resto da divisão. É representado pelo símbolo (%)
+print('''modulo = a % b
+      print("Módulo (a%b):", modulo)''')
+
+#A Exponenciação ela eleva o valor de 'a' à potência de 'b'. È representada pelos símbolos (**)
+print('''exponenciacao = a ** b
+         print("Explnenciação (a**b):", exponenciacao)''')
+
+
+#Ordem de procedência
+print("O python ele respeita uma ordem de prioridade entr os operadores. Parênteses > Exponenciação > Multiplicação|Divisão > Soma|Subtração")
+
+#Exemplos
+print("n1 = 3 + 3 * 7 ** 2
+       print(n1)")
+#cálculo:
+print("7 ** 2  =  49
+       3 * 49  =  147
+       3 + 147 =  150
+       Resultado: 150")
+
+print("n2 = 3 * 6 + 4 + (7 % 2) 3 ** 3
+       print(n2)")
+#cálculo:
+print("7 % 2  =  1
+       3 ** 3 =  9
+       3 * 6  =  16
+       16 + 4 + 1 + 9 = 30
+       Resultado : 30")
